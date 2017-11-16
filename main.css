@@ -1,0 +1,284 @@
+html, body{
+	height: 100%;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,800');
+@font-face{
+    font-family: 'Geometria','Open Sans';
+    src: url('../fonts/opensans.ttf') format('truetype'),
+         url('../fonts/opensans.woff') format('woff'),
+         url('../fonts/opensans.woff2') format('woff2');
+    	 font-weight: 400;
+    	 font-style: normal;
+}
+@font-face{
+    font-family: 'Geometria', 'Open Sans';
+    src: url('../fonts/opensansbold.ttf') format('truetype'),
+         url('../fonts/opensansbold.woff') format('woff'),
+         url('../fonts/opensansbold.woff2') format('woff2');
+    	 font-weight: 800;
+    	 font-style: normal;
+}
+
+body{
+	font-family: 'Geometria', 'Open Sans', sans-serif;
+	font-size: 12px;
+	font-weight: 800;
+	font-style: normal;
+	line-height: 1;
+	color: #fff;
+	margin: 0;
+}
+
+a{
+	color:#fff;
+	text-decoration: none;
+	transition: 0.25s ease-out;
+}
+
+a:hover,
+a:active{
+	color:#f5f5f5;
+}
+
+h1{
+	font-size: 70px;
+	font-weight: 800;
+	letter-spacing: 0.5px;
+	color:#fff;
+}
+
+.wrapper{
+	max-width: 1280px;
+	/* min-width: 1280px; */ /* удалил т.к появляется горизонтальный скроллинг */ 
+	min-height: 100%;
+	margin: 0 auto;
+	background: url(../img/arh-1.png) no-repeat center/cover;
+
+}
+.container{
+	width: 1280px;
+	height: 100%;
+}
+	/*begin header */
+
+/*=================*/
+
+.header{
+	display: block;
+	min-height: 81px;
+	min-width: 1280px;
+}
+
+.navigation{
+	position:relative;
+	top:-28px;
+	width: 80px;
+	min-width: 80px;
+	min-height: 81px;
+	background-color: #4ea8d5;
+	display: inline-block;
+	
+}
+.navCenter{
+	margin-right: 24px;
+	margin-left: 20px;
+	
+
+}
+
+.lineMenu{
+	width: 40px;
+	height: 2px;
+	background: #fff;
+	margin-bottom: 4px;
+	margin-right: 0;
+}
+.lineMenuOtstup{
+	height: 2px;
+}
+
+.menuHeader{
+	height: 24.5px;
+	max-height: 24.5px;
+	width: 40px;
+	font-size: 9px;
+	letter-spacing: 0.7px;
+}
+.otstupHeader{
+	
+	left:80px;
+	top:0px;
+	width: 161px;
+	height: 81px;
+	background: #353643;
+	display: inline-block;
+	vertical-align: center;
+}
+.adress{
+	margin-left: 57px;
+	width: 240px;
+	height: 12px;
+	background: none;
+	display: inline-block;
+}
+.documenti{
+	margin-left: 57px;
+	width: 70px;
+	height: 12px;
+	background: none;
+	display: inline-block;
+}
+.nomerTelefona{
+	position: relative;
+	right: 0px;
+	margin-left: 57px;
+	width: 148px;
+	height: 15px;
+	background: none;
+	font-size: 15px;
+	display: inline-block;
+}
+.zakazatZvonok{
+	margin-left: 57px;
+	width: 183px;
+	height: 12px;
+	background: none;
+	display: inline-block;
+}
+.telefonZvonit{
+	margin-left: 71px;
+	width: 80px;
+	height: 81px;
+	background: #4ea8d5;
+	
+	display: inline-block;
+}
+.tel{
+	height: 23px;
+	width: 23px;
+	background: url(../img/fill-2.png) no-repeat center/cover;
+	margin-top: 28px;
+	margin-left: 28px;
+}
+
+
+	/*end header */
+/*=================*/
+
+
+	/*begin main */
+/*=================*/
+
+
+.main{
+	/* font-size: 0px; */
+}
+
+
+.podrobneeMain{
+	vertical-align: top;	
+}
+
+.plusMain{
+	width: 15px;
+	height: 15px;
+	background: url(../img/rectangle-3.png) no-repeat center/cover;
+	text-align: center;
+	vertical-align: top;	
+	font-size: 15px;
+	font-weight: 500;
+	margin-top: 192px;
+	margin-left: 891px;
+	display: inline-block;
+	line-height: 14px;
+}
+
+.podrobnostiMain{
+	width: 68px;
+	height: 15px;
+	background: url(../img/rectangle-3.png) no-repeat center/cover;
+	display: inline-block;
+	text-align: top;
+	margin-top: 191.5px;
+}
+.podrobnee{
+	text-align: center;
+	letter-spacing: 0.3px;
+	font-size: 10px;
+	font-weight: 500;
+	margin-left: 2px;
+	margin-top: 2px;
+}
+
+.clubHouse{
+	height: 140px;
+	width: 708px;
+	margin-left: 237px;
+}
+
+	/*end main */
+/*=================*/
+
+
+
+
+
+	/*begin footer */
+/*=================*/
+
+.footer{
+	width:1280px;
+    height:50px;
+   	margin:0 auto;
+   	margin-top: -100px;
+	
+}
+
+.navFooter{
+	display: inline-block;
+	margin-left: 150px;
+	font-size: 12px;
+	letter-spacing: 0.5px;
+}
+.houseFooter{
+	display: inline-block;
+	margin-left: 93px;
+}
+.arhitecthureFooter{
+	display: inline-block;
+	margin-left: 93px;
+}
+.interierFooter{
+	display: inline-block;
+	margin-left: 93px;
+}
+.premisesFooter{
+	display: inline-block;
+	margin-left: 93px;
+}
+.commandFooter{
+	display: inline-block;
+	margin-left: 93px;
+}
+.social{
+display: inline-block;
+margin-left: 220px;
+}
+
+.instagram{
+	width: 18px;
+	height: 18px;
+	background: url(../img/shape.png) no-repeat center/cover;
+	margin-bottom: 18px;
+
+}
+
+.facebook{
+	width: 17px;
+	height: 17px;
+	background: url(../img/shape_2.png) no-repeat center/cover;	
+}
+
+/*end footer */
+/*=================*/
